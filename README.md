@@ -18,7 +18,8 @@ and suggests possible diseases with basic advice.
 
 ## How It Works
 1. The program asks the user to input symptoms (comma-separated).  
-   Example:  
+   Example:
+```
 Welcome to HealthBot!
 Enter your symptoms (comma-separated): 
 Symptoms: fever, cough, sore throat
@@ -26,6 +27,7 @@ Symptoms: fever, cough, sore throat
 Based on your symptoms, you might have:
 - Flu
   Advice: Drink fluids, rest, and consult a doctor if symptoms worsen.
+```
 
 2. It cleans and standardizes the input (e.g., `"sore throat"` → `"sore_throat"`).  
 
@@ -38,6 +40,7 @@ If **all required symptoms** of a disease are present, it suggests that disease.
 
 ## Project Structure
 ├── diagnose.py # Main chatbot script
+
 ├── README.md # Project documentation
 
 
